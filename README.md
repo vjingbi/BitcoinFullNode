@@ -14,6 +14,9 @@
 
 # 三. Atomicals全节点
 ## 1. Atomicals-electrumx (Electrum X Server) Github : https://github.com/atomicals/atomicals-electrumx
+>Linux下运行（Ubuntu22.04）
+>
+>需要python环境
 
 a. 配置环境
 ```
@@ -118,6 +121,10 @@ l. 成功运行截图。等同步完成就可以用自己的节点了，过程�
 
 ## 2. Electrumx-proxy (ElectrumX-Proxy)  Github : https://github.com/atomicals/electrumx-proxy
 
+>Linux、Windows下均可运行
+>
+>需要nodejs
+
 a. 安装nodejs，过程有点长，耐心等
 ```
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -168,6 +175,7 @@ http://IP:8080/proxy/health
 ## 3. 使用自建节点挖矿 atomicals-js https://github.com/atomicals/atomicals-js
 
 >Linux、Windows下均可运行
+>
 >需要nodejs，Linux安装过程看上一步Electrumx-proxy中命令，Windows直接点下一步即可
 
 a. 克隆atomicals-js
@@ -191,7 +199,8 @@ e. 创建钱包
 yarn cli wallet-init
 ```
 
-f. 挖矿
+f. 开始愉快的挖矿旅程吧
 ```
 yarn cli mint-dft quark --satsbyte=88
 ```
+![image](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/101c5a6c-7bbd-491a-af81-5776dda9ef33)
