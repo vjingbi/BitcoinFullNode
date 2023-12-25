@@ -6,9 +6,13 @@
 
 # 一. 比特币全节点
 
+待补
+
 ---
 
 # 二. Ordinals全节点
+
+待补
 
 ---
 
@@ -204,3 +208,16 @@ f. 开始愉快的挖矿旅程吧
 yarn cli mint-dft quark --satsbyte=88
 ```
 ![image](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/101c5a6c-7bbd-491a-af81-5776dda9ef33)
+
+---
+
+# 四、遇到问题可以加我微信。想进财富密码禁言群也可以加我，备注：禁言群
+
+![image](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/5eeca48c-0986-4bbb-97fc-4ded15fad374)
+
+---
+
+# 五、致谢 | Thanks to
+
+## 1. [Yan大 https://twitter.com/practice_y11 ](https://twitter.com/practice_y11) Yan大技术非常好，人也nice，一定要关注他的推哦，经常有抽奖活动
+
