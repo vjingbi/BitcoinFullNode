@@ -20,7 +20,7 @@ a. 配置环境
 sudo apt install python3-pip build-essential libc6-dev libncurses5-dev libncursesw5-dev libreadline-dev libleveldb-dev
 ```
    
-b. 安装plyvel (需要提前安装好python3，我是用的版本是3.10)
+b. 安装plyvel (需要提前安装好python3，我用的版本是3.10)
 ```
 sudo pip3 install plyvel
 ``` 
@@ -110,7 +110,7 @@ k. 查看状态
 journalctl -u electrumx -f
 ```
 
-l. 成功运行截图
+l. 成功运行截图。等同步完成就可以用自己的节点了，过程超级超级长，耐心等（看电脑配置和网速，2天左右）
 ![1](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/56ebc20e-38e4-4e8e-8771-c49ec748c423)
 ![2](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/10c07ec4-e842-484a-bec4-2d9c4e686d7c)
 
@@ -120,7 +120,7 @@ l. 成功运行截图
 
 a. 安装nodejs，过程有点长，耐心等
 ```
-curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
