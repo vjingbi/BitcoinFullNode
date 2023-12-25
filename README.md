@@ -159,10 +159,39 @@ g. 去除速度限制
 speedLimiter
 ```
 
-h. 访问http接口，成功后会显示两个true
+h. 访问http接口，等第1步中超级超级慢的同步完成后，会显示两个true
 ```
 http://IP:8080/proxy/health
 ```
 ![image](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/02b6cfb6-a35a-4155-89f8-fbaac480f4ab)
 
+## 3. 使用自建节点挖矿 atomicals-js https://github.com/atomicals/atomicals-js
 
+>Linux、Windows下均可运行
+>需要nodejs，Linux安装过程看上一步Electrumx-proxy中命令，Windows直接点下一步即可
+
+a. 克隆atomicals-js
+```
+git clone https://github.com/atomicals/atomicals-js.git
+```
+
+b. 安装，过程有点长，耐心等（ 如果没有提前安装yarn，需要执行命令`npm install -g yarn` ）
+```
+yarn install
+yarn run build
+```
+
+c. 安装完成后修改**.env**文件，ELECTRUMX_PROXY_BASE_URL改成自建节点
+```
+ELECTRUMX_PROXY_BASE_URL=https://IP/proxy
+```
+
+e. 创建钱包
+```
+yarn cli wallet-init
+```
+
+f. 挖矿
+```
+yarn cli mint-dft quark --satsbyte=88
+```
