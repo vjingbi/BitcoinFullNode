@@ -24,6 +24,8 @@
 
 a. 配置环境
 ```
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt install python3-pip build-essential libc6-dev libncurses5-dev libncursesw5-dev libreadline-dev libleveldb-dev
 ```
    
