@@ -178,6 +178,11 @@ http://IP:8080/proxy/health
 ```
 ![image](https://github.com/vjingbi/BitcoinFullNode/assets/41134585/02b6cfb6-a35a-4155-89f8-fbaac480f4ab)
 
+i. 查看当前区块高度
+```
+http://IP:8080/proxy/blockchain.atomicals.get_global?pretty
+```
+
 ## 3. 使用自建节点挖矿 atomicals-js https://github.com/atomicals/atomicals-js
 
 >Linux、Windows下均可运行
